@@ -1,0 +1,998 @@
+{
+	"info": {
+		"_postman_id": "57ce42b1-b320-41b4-a92c-71077480b8d9",
+		"name": "Proyecto final",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28656559"
+	},
+	"item": [
+		{
+			"name": "Estudiante",
+			"item": [
+				{
+					"name": "ConsultarTodo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombre\":\"Diana Carolina\",\r\n   \"primerApellido\":\"Beltrán\",\r\n   \"segundoApellido\":\"García\",\r\n   \"dni\":\"5435546\",\r\n   \"correo\":\"diana@hotmail.com\",\r\n   \"telefono\":\"3312534543\",\r\n   \"usuario\":\"0123M\",\r\n   \"contrasenia\":\"asdfg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Estudiante",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Estudiante"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombre\":\"Sergio\",\r\n   \"primerApellido\":\"Beltrán\",\r\n   \"segundoApellido\":\"García\",\r\n   \"dni\":\"342374\",\r\n   \"correo\":\"sergio@hotmail.com\",\r\n   \"telefono\":\"57843758943\",\r\n   \"usuario\":\"0123F\",\r\n   \"contrasenia\":\"asddfg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Estudiante",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Estudiante"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombre\":\"Diana Carolina\",\r\n   \"primerApellido\":\"Beltrán\",\r\n   \"segundoApellido\":\"García\",\r\n   \"dni\":\"5435546\",\r\n   \"correo\":\"carolina@hotmail.com\",\r\n   \"telefono\":\"3312534543\",\r\n   \"usuario\":\"0123M\",\r\n   \"contrasenia\":\"asdfg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Estudiante/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Estudiante",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ConsultarID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/Estudiante/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Estudiante",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/Estudiante/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Estudiante",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Profesor",
+			"item": [
+				{
+					"name": "ConsultarTodo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombre\":\"Diana Carolina\",\r\n   \"primerApellido\":\"Beltrán\",\r\n   \"segundoApellido\":\"García\",\r\n   \"dni\":\"5435546\",\r\n   \"correo\":\"diana@hotmail.com\",\r\n   \"telefono\":\"3312534543\",\r\n   \"usuario\":\"0123M\",\r\n   \"contrasenia\":\"asdfg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Profesor",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Profesor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombre\":\"Antonio\",\r\n   \"primerApellido\":\"Martín\",\r\n   \"segundoApellido\":\"Patiño\",\r\n   \"dni\":\"24208033\",\r\n   \"correo\":\"martinpatino@yahoo.es\",\r\n   \"telefono\":\"16464646\",\r\n   \"usuario\":\"20420221\",\r\n   \"contrasenia\":\"asjhasofas\",\r\n   \"tipoVinculacion\":\"profesor de informática\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Profesor",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Profesor"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombre\":\"Diana Carolina\",\r\n   \"primerApellido\":\"Beltrán\",\r\n   \"segundoApellido\":\"García\",\r\n   \"dni\":\"5435546\",\r\n   \"correo\":\"carolina@hotmail.com\",\r\n   \"telefono\":\"3312534543\",\r\n   \"usuario\":\"0123M\",\r\n   \"contrasenia\":\"asdfg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Estudiante/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Estudiante",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ConsultarID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/Estudiante/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Estudiante",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/Estudiante/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Estudiante",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Materia",
+			"item": [
+				{
+					"name": "ConsultarTodo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombre\":\"Diana Carolina\",\r\n   \"primerApellido\":\"Beltrán\",\r\n   \"segundoApellido\":\"García\",\r\n   \"dni\":\"5435546\",\r\n   \"correo\":\"diana@hotmail.com\",\r\n   \"telefono\":\"3312534543\",\r\n   \"usuario\":\"0123M\",\r\n   \"contrasenia\":\"asdfg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Materia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Materia"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombreMateria\":\"spring boot\",\r\n   \"codigo\":\"1234\",\r\n   \"descripcion\":\"Programación spring boot\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Materia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Materia"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombre\":\"Diana Carolina\",\r\n   \"primerApellido\":\"Beltrán\",\r\n   \"segundoApellido\":\"García\",\r\n   \"dni\":\"5435546\",\r\n   \"correo\":\"carolina@hotmail.com\",\r\n   \"telefono\":\"3312534543\",\r\n   \"usuario\":\"0123M\",\r\n   \"contrasenia\":\"asdfg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Materia/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Materia",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ConsultarID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/Materia/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Materia",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/Materia/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Materia",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Matricula",
+			"item": [
+				{
+					"name": "ConsultarTodo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombre\":\"Diana Carolina\",\r\n   \"primerApellido\":\"Beltrán\",\r\n   \"segundoApellido\":\"García\",\r\n   \"dni\":\"5435546\",\r\n   \"correo\":\"diana@hotmail.com\",\r\n   \"telefono\":\"3312534543\",\r\n   \"usuario\":\"0123M\",\r\n   \"contrasenia\":\"asdfg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Matricula",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Matricula"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"materiaID\":{\r\n       \"id\":1\r\n   },\r\n   \"estudianteID\":{\r\n       \"id\":3\r\n   }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Matricula",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Matricula"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombre\":\"Diana Carolina\",\r\n   \"primerApellido\":\"Beltrán\",\r\n   \"segundoApellido\":\"García\",\r\n   \"dni\":\"5435546\",\r\n   \"correo\":\"carolina@hotmail.com\",\r\n   \"telefono\":\"3312534543\",\r\n   \"usuario\":\"0123M\",\r\n   \"contrasenia\":\"asdfg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Matricula/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Matricula",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ConsultarID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/Materia/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Materia",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/Materia/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Materia",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Aula",
+			"item": [
+				{
+					"name": "ConsultarTodo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombre\":\"Diana Carolina\",\r\n   \"primerApellido\":\"Beltrán\",\r\n   \"segundoApellido\":\"García\",\r\n   \"dni\":\"5435546\",\r\n   \"correo\":\"diana@hotmail.com\",\r\n   \"telefono\":\"3312534543\",\r\n   \"usuario\":\"0123M\",\r\n   \"contrasenia\":\"asdfg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Aula",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Aula"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombreAula\":\"Ada Lovelace\",\r\n   \"ubicacion\":\"1º Izq. 3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Aula",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Aula"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"nombre\":\"Diana Carolina\",\r\n   \"primerApellido\":\"Beltrán\",\r\n   \"segundoApellido\":\"García\",\r\n   \"dni\":\"5435546\",\r\n   \"correo\":\"carolina@hotmail.com\",\r\n   \"telefono\":\"3312534543\",\r\n   \"usuario\":\"0123M\",\r\n   \"contrasenia\":\"asdfg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Aula/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Aula",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ConsultarID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/Aula/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Aula",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/Aula/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Aula",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Asistencia",
+			"item": [
+				{
+					"name": "ConsultarTodo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/Asistencia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Asistencia"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"estadoDeAsistencia\":true,\r\n   \"matriculaID\":{\r\n       \"id\":1\r\n   }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/Asistencia",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Asistencia"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/Asistencia/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Asistencia",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ConsultarID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/Asistencia/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Asistencia",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/Asistencia/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"Asistencia",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "HorarioMateria",
+			"item": [
+				{
+					"name": "ConsultarTodo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/HorarioMateria",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"HorarioMateria"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Agregar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"horaEntrada\":\"18:30:00\",\r\n   \"horaSalida\":\"22:30:00\",\r\n   \"profesorID\":{\r\n       \"id\":2\r\n   },\r\n   \"aulaID\":{\r\n       \"id\":3\r\n   },\r\n   \"materiaID\":{\r\n       \"id\":3\r\n   }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/HorarioMateria",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"HorarioMateria"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"horaEntrada\":\"10:30:00\",\r\n   \"horaSalida\":\"12:30:00\",\r\n   \"profesorID\":{\r\n       \"id\":1\r\n   },\r\n   \"aulaID\":{\r\n       \"id\":1\r\n   },\r\n   \"materiaID\":{\r\n       \"id\":2\r\n   }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9000/api/HorarioMateria/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"HorarioMateria",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ConsultarID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/HorarioMateria/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"HorarioMateria",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/api/HorarioMateria/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"api",
+								"HorarioMateria",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
