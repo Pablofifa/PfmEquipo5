@@ -13,5 +13,5 @@ participantes en el desarrollo:
 - Juan Raimundo Álvarez Nuñez
 - María Esther Illacuci Jácome
 
-• project Owner:
+• Project Supervisor:
 - Jesús Ariel González Bonilla
