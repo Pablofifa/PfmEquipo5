@@ -8,8 +8,8 @@ participantes en el desarrollo:
 
  Autores:
 
-• team Leaders
-- pablo Figueira Fachado
+• Team Leaders
+- Pablo Figueira Fachado
 - Juan Raimundo Álvarez Nuñez
 - María Esther Illacuci Jácome
 
