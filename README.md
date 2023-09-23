@@ -11,7 +11,7 @@ participantes en el desarrollo:
 • team Leaders
 - pablo Figueira Fachado
 - Juan Raimundo Álvarez Nuñez
-- Esther Illacuci Jácome
+- María Esther Illacuci Jácome
 
 • project Owner:
 - Jesús Ariel González Bonilla
