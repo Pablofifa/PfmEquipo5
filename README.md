@@ -10,7 +10,7 @@ participantes en el desarrollo:
 
 • team Leaders
 - pablo Figueira Fachado
-- Juan Raimundo Alvarez Nuñez
+- Juan Raimundo Álvarez Nuñez
 - Esther Illacuci Jácome
 
 • project Owner:
