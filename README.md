@@ -10,7 +10,7 @@ participantes en el desarrollo:
 
 • Team Leaders
 - Pablo Figueira Fachado
-- Juan Raimundo Álvarez Nuñez
+- Juan Raimundo Álvaro Nuñez
 - María Esther Illacuci Jácome
 
 • Project Supervisor:
